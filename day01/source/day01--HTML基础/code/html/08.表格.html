@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        表格的组成：由行 和 列组成，行和列交汇的叫做单元格
+        行--tr
+        单元格标签---td
+        结构：
+        table > tr > td
+        <table>
+            <tr>
+                <td><td>
+            </tr>
+        </table>
+
+        表格相关属性：
+            width---表格的宽度
+            height---表格的高度
+            border---表格的边框
+            bordercolor--表格的变宽颜色
+            cellspacing="数字"--设置单元格之间的距离
+            cellpadding="数字"---设置内容到单元格边框的距离
+
+            align="left|center|right"---如果align属性给table添加，那么是将表格设置在网页中的对齐方式
+            想要文字在单元格中居中显示，只能将align属性给tr或者 td设置
+            
+            注意点：当单元格没有内容的时候，单元格默认情况下会被挤压，想要所有单元格宽高一样，只能单独给单元格设置宽高
+
+     -->
+    <table width="300" height="300" border="1" bordercolor="pink" cellspacing="0" cellpadding="0" align="left">
+        <tr align="center" height="100">
+            <td width="100">111</td>
+            <td width="100">222</td>
+            <td width="100"></td>
+        </tr>
+        <tr align="center" height="100">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr height="100">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

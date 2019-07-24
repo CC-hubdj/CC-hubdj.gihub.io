@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Document</title>
+   <style>
+       /*
+          a:link{
+              color: red;
+          }
+
+          a:visited{
+              color: blue;
+          }
+
+          a:hover{
+              color:green;
+          }
+       */
+          div{
+               width: 200px;
+               height: 200px;
+               background: red;
+          }
+          div:hover{
+              background: green;
+          }
+          a:active{
+             color: black;
+          }
+          div:active{
+              background:pink;
+          }
+
+          
+
+   </style>
+</head>
+<body>
+    <!--
+         伪类选择器：
+            1)链接未被访问的状态（链接在浏览器中没有被打开过）,只有a标签才有的状态
+               a:link{}
+            2)链接被访问过的状态，默认的字体颜色为紫色，只有a标签才有的元素
+               a:visited{}
+            3)鼠标滑过时候的状态(所有元素都有这个状态)
+               E:hover{}
+            4）鼠标按下，并没有松开的时候的状态（所有元素都有这个状态）
+               E:active{}
+              
+
+    -->
+
+    <a href="06.id选择器.html">去百度</a>
+     <div></div>
+</body>
+</html>

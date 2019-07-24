@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Document</title>
+    <style>
+
+
+        /*为什么会出现id选择器和class（类）选择器？
+         原因：如果直接用类型选择器的时候，会直接选择到同一类型的元素。但是每个类型标签、每个元素它的样式都是不一样的，所以我们必须额外的给他们添加小名或者名字，通过名字来给他们添加属于自己的样式。
+        
+        1、类型选择器：
+               类型选择器（标签选择器），用标签名为选择器的，表示能选择到这一类型的标签
+                div{}--表示给页面中的所有div标签添加样式
+         
+        2、id选择器
+          1）id选择器，给标签添加一个属性，并且给属性值（id名，根据自己的需求取名字）
+          2）在CSS中，用#id来作为选择器
+           例如：<div id="box"><div>
+             #box{width:100px;height:100px;background:red;}
+        一般使用在页面的最外层的盒子，一个元素只能有一个id名，一个id名只能对应一元素（相当于人的身份证，一个人只有一个身份证号，一个身份证号只对应一个人）
+        
+        3、类选择器（class选择器） 
+            1)给标签添加一个class属性，并且有属性值 （class名，根据自己的需求去名字）
+            2）在css中，用 .class名 作为选择器
+               例如：<div class="box1"></div>
+                    .box1{width:100px;height:100px;background:red;}
+         */
+      
+      #bb {
+           width: 1000px;
+           height: 1500px;
+           border: 1px solid red;
+       }
+
+       .box1 {
+           width:1000px;
+           height:102px;
+           background: #cccccc;
+           
+       }
+        .box2 {
+            width: 1000px;
+            height: 258px;
+            background: #58bc58;
+       }
+       .box3 {
+            width: 1000px;
+            height: 405px;
+            background: #585fbc;
+       }
+       .box4 {
+            width: 1000px;
+            height: 510px;
+            background: orange;
+       }
+       .box5 {
+            width: 1000px;
+            height: 225px;
+            background: blue;
+       }
+
+    </style>
+</head>
+<body>
+    <!--
+        布局一般用div来写，一个页面由一个大盒子包起来
+    -->
+
+
+    <!--<div style='width: 1000px;height: 1500px;border: 1px solid red;'> 
+       <div style='width: 1000px;height: 102px;background:  red;'>box1</div>
+       <div style='width: 1000px;height: 258px;background: yellow;'> box2</div>
+       <div style='width: 1000px;height: 405px;background: blue;'> box2</div>
+       <div style='width: 1000px;height: 510px;background: green;'> box2</div>
+       <div style='width: 1000px;height: 225px;background: rebeccapurple;'> box2</div>
+    </div>
+   内联样式:-->
+
+
+   <!--
+    <div id="box"> 
+        <div>box1</div>
+        <div>box2</div>
+        <div>box3</div>
+        <div>box4</div>
+        <div>box5</div>
+     </div>
+     -->
+    
+
+     <div id="bb"> 
+            <div class="box1">box1</div>
+            <div class="box2">box2</div>
+            <div class="box3">box3</div>
+            <div class="box4">box4</div>
+            <div class="box5">box5</div>
+         </div>
+
+
+</body>
+</html>

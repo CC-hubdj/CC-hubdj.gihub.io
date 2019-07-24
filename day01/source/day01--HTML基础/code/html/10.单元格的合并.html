@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>行合并</h2>
+    <table width="400" height="200" border="1" cellspacing="0">
+        <!-- 
+            tr*2>td*2--得到两个tr，每个tr中有两个td子元素
+
+            合并的属性都给td添加
+            行合并--rowspan="n"，删除本行下面n-1行对应的td
+
+            列合并---colspan="n" 删除本行里面的n-1个td
+         -->
+        <tr align="center">
+            <td>1</td>
+            <td rowspan="3">2</td>
+        </tr>
+        <tr align="center">
+            <td>3</td>
+            <!-- <td>4</td> -->
+        </tr>
+        <tr align="center">
+            <td>5</td>
+            <!-- <td>6</td> -->
+        </tr>
+    </table>
+    <h2>列合并</h2>
+    <table width="400" height="200" border="1" cellspacing="0">
+        <tr align="center">
+            <td colspan="3">1</td>
+            <!-- <td>2</td> -->
+            <!-- <td>3</td> -->
+        </tr>
+        <tr align="center">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
