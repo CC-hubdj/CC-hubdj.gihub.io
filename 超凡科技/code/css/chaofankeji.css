@@ -1,0 +1,365 @@
+#box{
+    width: 100%;
+    height: 5300px;
+    background-color: rgb(166, 197, 29);
+}
+#box .content{
+    width: 1200px;
+    height: 100%;
+    /* background-color: rgb(202, 212, 199); */
+    margin: auto;
+    overflow: hidden;
+    
+}
+.header{
+    width: 100%;
+    height: 82px;
+    background-color:  #ffffff;
+}
+.header1 {
+    width: 400px;
+    height: 100%;
+    /* border: 1px solid red; */
+    background: url(../images/logo.png);
+    float: left;
+}
+.header2{
+    overflow: hidden;
+}
+.header2 ul{
+    float: right;
+    width: 736.5px;
+    height:80px;
+    line-height: 82px;
+    /* border: 1px solid green; */
+    /* margin-right: 20px; */
+}
+.header2 ul>li{
+    float: left;
+    width:80px;
+    height: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+    margin-right: 11px;
+}
+.header2 a{
+    display: block;
+    height:100%; 
+    font-size: 13px;
+    color: #333333;  
+}
+.header2 .yingwen{
+    display: none;
+    text-transform: uppercase;   
+}
+.header2 li:hover .zhongwen{
+    display: none;
+}
+.header2 li:hover .yingwen{
+    display: block;
+}
+
+.banner {
+    width: 100%;
+    height:448px;
+    /* background-color: red; */
+    background: url(../images/banner.png) center center;
+}
+.main1{
+    width: 100%;
+    height: 726px;
+    background-color:#ffffff;
+}
+.main1  .main1-1{
+    width: 568px;
+    height: 204px; 
+    text-align: center;
+    margin: 0 330px;
+}
+.main1-1 img{
+    margin-top: 42px;
+}
+.main1-1 .main1-ct{
+    display: block;
+    margin-top: 24px;
+    height: 44px;
+    width: 523px;
+    font-size: 18px;
+    line-height: 24px;
+    color:#796679;
+    white-space: pre-line;
+}
+.main1 .main1-2{
+    width: 1146px;
+    height: 444px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 5px;
+}
+.main1-2 .list{
+    width: 352px;
+    height: 218px;
+    /* border: 1px solid green; */
+    float: left;
+    margin-right: 42px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.main1-2  .list  .title {
+    position: absolute;
+    font-size: 25px;
+    line-height: 73px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+    height: 73px;
+    background: rgb(0, 147, 221);
+    color: #fff;
+    text-align: center;
+}
+.main1-2 .box1 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgb(0, 147, 221);
+}
+.main1-2 .list:hover .box1{
+    display: block;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.main2{
+    width: 100%;
+    height: 764px;
+    background-color: #ebeff1;
+}
+.main2 .main1-1{
+    width: 100%;
+    height: 154px;
+    border: 1px solid red;
+}
+.main2  .main2-1{
+    width: 520px;
+    height: 190px; 
+    text-align: center;
+    margin: 0 330px;
+}
+.main2-1 img{
+    margin-top: 42px;
+}
+.main2-1 .main2-ct{
+    margin-top: 24px;
+    height: 20px;
+    width: 490px;
+    font-size: 18px;
+    line-height: 18px;
+    color:#876666;
+}
+.main2 .main2-2{
+    width: 1140px;
+    height:502px;
+    /* border: 1px solid red; */
+}
+.main2 .list2{
+    width: 283px;
+    height: 166px;
+    border: 1px solid #ebeff1;
+    float: left;
+}
+.main2-2 .a2{
+    display: none;
+}
+.main2-2  .list2:hover  .a2{
+    display: block;
+}
+.list2:hover .a1{
+    display: none;
+}
+
+.main3{
+    width: 100%;
+    height: 682px;
+    background-color: #ffffff;
+}
+.main3-1{
+    width: 818px;
+    height: 186px;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+}
+.main3-1 img{
+    margin-top: 42px;
+} 
+.main3-1 .main3-ct{
+    font-size: 18px;
+    color: #666666;
+    line-height: 18px;
+    margin-top: 25px;
+}
+.main3-2{
+    width: 1138px;
+    height: 425px;
+    /* border: 1px solid yellow; */
+}
+.main3-2 img{
+    width: 100%;
+    height: 100%;
+}
+.main3-2 .list3{
+    width: 282.5px;
+    height: 210px;
+    border: 1px solid #ffffff;
+    float: left;
+}
+
+.main4{
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/main4.jpg);
+}
+.main4-1{
+    width: 1100px;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;   
+} 
+.main4-1  .title{
+    font-size: 48px;
+    line-height: 48px;
+    color: #b8d5e7;
+    margin-top: 40px;
+}
+.main4-1 .m4-ct{
+    font-size: 18px;
+    color: #f0ffff;
+    line-height: 18px;
+    margin-top: 25px;
+}
+.main4 .box{
+    width: 1200px;
+    height: 540px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-left: 20px;
+}
+ .main4  .box div{
+    width: 560px;
+    height: 169px;
+   background-color: #ffffff;
+    /* float: left; */
+    margin-bottom: 14px;
+}
+.main4 .box .list-left{
+    margin-right: 40px;
+}
+
+.main4 .box  img{
+    float: left;
+    width: 160px;
+    height: 170px;
+    margin-right: 20px;
+}
+ .main4 .box .main{
+    float: left;
+    width: 370px;
+    height:100%;
+    /* background-color: green; */
+} 
+.box  .main h2{
+    font-size: 15px;
+    line-height: 15px;
+    color: #333333;
+    margin-top: 20px;
+}
+.box  .main .p2{
+    font-size: 10px;
+    line-height: 22px;
+    color: #777777; 
+    margin-top: 10px;
+    padding-right: 20px;
+    
+}
+.box  .main .p3 .ss1{
+    float: left;
+    font-size: 9px;
+    color: #dacfcc;
+    margin-top: 25px;
+    
+}
+.box  .main .p3 .ss2{
+    float: right;
+    color: #cccccc;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+ 
+
+
+.main5{
+    width: 100%;
+    height: 912px;
+    background-color: rgb(95, 61, 64);
+    overflow: hidden;
+}
+.main6{
+    width: 100%;
+    height: 224px;
+    background-image: url(../images/main6-blue-bg.png) ;
+}
+.main6 .content{
+    width: 1200px;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.main6 .list{
+    float: left;
+    width: 399px;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid #0052a7;
+}
+.main6 .title{
+    font-size: 68px;
+    color: #ffffff;
+}
+.main6 .content1{
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 22px;
+    color: #ffffff;
+}
+.main6 .top{
+    margin-top: 57px;
+    position: relative;
+}
+.main6 .bg-line{
+    width: 1000px;
+    height: 3px;
+    background: url(../images/blue-bg.png) ;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.main7{
+    width: 100%;
+    height: 432px;
+    background-color:rgb(144, 13, 156);
+}
+.footer{
+    width: 100%;
+    height: 230px;
+    background-color: rgb(27, 97, 155);
+}
