@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    background: #cccccc;
+    margin:100px auto;
+    overflow: hidden;
+}
+.top{
+    width: 200px;
+    height: 100px;
+    background: #51a251;
+    margin-top: 20px;
+    margin-left: 150px;
+     border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+     position: relative;
+}
+.top .yuan1,.yuan2{
+    width: 20px;
+    height: 20px;
+    background: #ffff;
+    border-radius: 100% 100%;
+}
+.top .yuan1{
+    position: absolute;
+    left: 60px;
+    bottom:30px;
+}
+.top .yuan2{
+    position: absolute;
+    left: 120px;
+    bottom:30px;
+}
+.middle{
+    width: 280px;
+    height: 230px;
+    /* border: 1px solid red; */
+    margin-left: 120px;
+    margin:auto;
+    margin-top: 10px;
+
+}
+.middle .left{
+    width: 30px;
+    height: 180px;
+    background: #51a251;
+    float: left;
+    border-radius: 9px;
+}
+.middle .center{
+    width: 200px;
+    height: 230px;
+    background: #51a251;
+    float: left;
+    margin-left: 10px;
+    border-radius: 19px;
+}
+.middle .right{
+    width: 30px;
+    height: 180px;
+    background: #51a251;
+    float: right;
+    border-radius: 9px;
+}
+.bottom {
+    width: 120px;
+    height: 80px;
+    /* border: 1px solid  red; */
+    margin: auto;
+}
+.bottom  .foot1{
+    width: 30px;
+    height: 80px;
+    background: #51a251;
+    border-radius: 0 0 14px 14px;
+    float: left;
+}
+.bottom  .foot2{
+    width: 30px;
+    height: 80px;
+    background: #51a251;
+    border-radius: 0 0 14px 14px;
+    float: right;
+}

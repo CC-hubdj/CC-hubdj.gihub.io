@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+         ul {
+            width: 500px;
+            height: 40px;
+            border-bottom: 1px solid red;
+            margin: 100px auto;
+        }
+        ul>li {
+            list-style: none;
+            float: left;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            /* border: 1px solid green; */
+            text-align: center;
+        }
+       li  a {
+            text-decoration: none;
+            display: block;
+        }
+        li:hover .zhongwen{
+            display: none;
+        }
+        .yingwen{
+            display: none;
+            text-transform: uppercase;
+        }
+        li:hover .yingwen{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="" class="zhongwen">首页</a>
+            <a href="" class="yingwen">shouye</a>
+        </li>
+        <li><a href="" class="zhongwen">服务</a>
+            <a href="" class="yingwen">services</a>
+        </li>
+        <li><a href="" class="zhongwen">运维</a>
+            <a href="" class="yingwen">yunwei</a>
+        </li>
+        <li><a href="" class="zhongwen">工作</a>
+            <a href="" class="yingwen">work</a>
+        </li>
+    </ul>
+
+</body>
+
+</html>

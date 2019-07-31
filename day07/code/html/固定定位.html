@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul>li {
+            list-style: none;
+        }
+
+        #chaofankeji {
+            height: 2000px;
+            background-color: aqua;
+        }
+
+        #chaofankeji .header {
+            width: 100%;
+            height: 83px;
+            background-color: red;
+            position: fixed;
+        } 
+
+        #chaofankeji .aside {
+            width: 100px;
+            height: 300px;
+            background-color: pink;
+            position: fixed;
+            bottom: 100px;
+            right: 0px;
+        }
+
+        #chaofankeji .aside .aside1 {
+            width: 100px;
+            height: 100px;
+            background: url(../images/foot_c1.png) rgba(103, 167, 51, 0.333) no-repeat center center;
+        }
+        #chaofankeji .aside .aside2 {
+            width: 100px;
+            height: 100px;
+            background: url(../images/foot_c2.png) rgba(177, 44, 11, 0.333) no-repeat center center;
+        }
+        #chaofankeji .aside .aside3 {
+            width: 100px;
+            height: 100px;
+            background: url(../images/foot_c3.png) rgba(55, 4, 150, 0.333) no-repeat center center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="chaofankeji">
+        <div class="header"></div>
+        <ul class="aside">
+            <li class="aside1"></li>
+            <li class="aside2"></li>
+            <li class="aside3"></li>
+        </ul>
+    </div>
+</body>
+
+</html>

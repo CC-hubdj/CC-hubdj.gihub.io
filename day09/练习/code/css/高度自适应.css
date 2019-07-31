@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#box{
+    width: 100%;
+    height: 2395px;
+    background-color: #f0f0f0;
+}
+.content{
+    width: 992px;
+    height:100%;
+    /* background-color:#ccc; */
+    margin: auto;
+}
+.box1 ul>li{
+    list-style: none;
+}
+.box1{
+     width: 246px;
+     border-right: 3px solid #f0f0f0 ;
+     background-color: #fafafa;
+     float: left;
+ }
+ .box1 h2{
+     height: 58px;
+     font-size: 23px;
+     color: #4c4c8a;
+     padding-left: 71px;
+     background:url(../images/header1---腾讯大学.png) no-repeat 8px center, 
+     url(../images/header2---腾讯大学.png);
+     line-height: 58px;
+ }
+ .box1 .ct>li{
+     font-size: 18px;
+     line-height: 18px;
+     color: #4c4c4c;
+     margin-top: 26px;
+     margin-left: 50px;
+ }
+.box2 {
+    width: 743px;
+    height: 100%;
+    background-color: green; 
+    float: left; 
+}
+.box2  .list1{
+    width: 695px;
+    /* height: 180px; */
+    background-color: #f3e1c9;
+    margin: auto;
+} 
+.box2 .list1 .lip1{
+    width: 460px;
+    height: 120px;
+    border: 1px solid red;
+    float: left;
+}
+.box2 .list1 .lip2{
+    float: right;
+    margin-top: 66px; 
+    margin-right: 28px;
+}
+
+.box2  .list2{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} .box2  .list3{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} .box2  .list4{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} 
+.box2  .list5{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} .box2  .list6{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} .box2  .list7{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} .box2  .list8{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} .box2  .list9{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} .box2  .list10{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} .box2  .list11{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} .box2  .list12{
+    width: 695px;
+    height: 180px;
+    background-color: #f3e1c9;
+    margin: auto;
+} 

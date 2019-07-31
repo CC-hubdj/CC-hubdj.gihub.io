@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#qianfeng {
+    width: 100%;
+    height: 1400px;
+    background: pink;
+}
+.header{
+    width: 100%;
+    height: 62px;
+    background: red;
+}
+#qianfeng .content{
+    width: 1120px;
+    height: 100%;
+    background: #fff;
+    margin: auto;
+}
+
+.banner{
+    width: 100%;
+    height: 420px;
+    background:yellow;
+    background-image: url(../images/qianfeng-banner.png);
+    background-position: center center;
+}
+
+}
+.main1{
+    width: 100%;
+    height: 350px;
+    background: blue;
+}
+.main2{
+    width: 100%;
+    height: 310px;
+    background: rgb(139, 14, 41);
+}
+.main3{
+    width: 100%;
+    height: 213px;
+    background: grey;
+}
+.footer{
+    width: 100%;
+    height: 45px;
+    background: rgb(25, 175, 25);
+}
+
+
