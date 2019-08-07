@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+}
+.box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box header,footer{
+    width: 100%;
+    height:100px;
+    background: yellow;
+}
+.box main{
+    flex: 1;
+    background: green;
+    display: flex;
+}
+.box main nav{
+    width: 200px;
+    background: #72056d;
+}
+.box main section{
+    background: red;
+    flex: 1;
+}
+.box main aside{
+    width: 100px;
+    background: #170374;
+}
