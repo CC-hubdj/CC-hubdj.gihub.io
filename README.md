@@ -5,17 +5,17 @@
 <a href='https://cc-hubdj.github.io/day09/%E4%BD%9C%E4%B8%9A/code/html/%E5%B0%8F%E9%B9%BF.html'>小鹿</a>
 
 # day13作业
-<a href='https://cc-hubdj.github.io/day13/作业/code/婚礼纪（作业1）.html'>婚礼纪（作业1）</a>
+<a href='https://cc-hubdj.github.io/day13/作业/code/html/婚礼纪（作业1）.html'>婚礼纪（作业1）</a>
 
 # day14作业
-<a href='https://cc-hubdj.github.io/day14/code/html/开源博客.html'>开源博客</a>
+<a href='https://cc-hubdj.github.io/day14//作业/code/html/开源博客.html'>开源博客</a>
 
 # day14作业
-<a href='https://cc-hubdj.github.io/day14/code/html/ALLPYRA.html'>ALLPYRA</a>
+<a href='https://cc-hubdj.github.io/day14//作业/code/html/ALLPYRA.html'>ALLPYRA</a>
 
 # day14练习
-<a href='https://cc-hubdj.github.io/day14/code/html/zhifubao.html'>zhifubao</a>
+<a href='https://cc-hubdj.github.io/day14//作业/code/html/zhifubao.html'>zhifubao</a>
 
 # day15作业
-<a href='https://cc-hubdj.github.io/day15/code/html/发现(rem布局).html'>发现(rem布局).html</a>
+<a href='https://cc-hubdj.github.io/day15//作业/code/html//发现(rem布局).html'>发现(rem布局).html</a>
 
