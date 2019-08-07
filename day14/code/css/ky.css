@@ -1,0 +1,346 @@
+html, body {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+#ky {
+  background: #ebebeb;
+}
+
+#ky .ky-header {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+#ky .ky-header i img {
+  margin-top: 62px;
+}
+
+#ky .ky-nav .list1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #fff;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  height: 55px;
+}
+
+#ky .ky-nav .list1 li {
+  width: 70px;
+  line-height: 55px;
+  margin-right: 45px;
+  text-align: center;
+  font-size: 13px;
+  color: #505050;
+}
+
+#ky .ky-nav .list1 li a {
+  display: block;
+  color: #505050;
+}
+
+#ky .ky-nav .list1 li:hover {
+  border-bottom: 2px solid #e67e22;
+}
+
+#ky .ky-main {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 35px;
+  justify-content: space-between;
+}
+
+#ky .ky-main .main-left {
+  width: 60%;
+}
+
+#ky .ky-main .main-left .main1 .top {
+  width: 90%;
+  background-color: #fff;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#ky .ky-main .main-left .main1 .top h2 {
+  font-size: 33px;
+  line-height: 33px;
+  color: #303030;
+  margin-top: 36px;
+}
+
+#ky .ky-main .main-left .main1 .top h5 {
+  font-size: 13px;
+  line-height: 13px;
+  color: #959595;
+  margin-top: 22px;
+}
+
+#ky .ky-main .main-left .main1 .top h5 span {
+  color: #e67e22;
+}
+
+#ky .ky-main .main-left .main1 .top .p1 {
+  font-size: 17px;
+  line-height: 30px;
+  color: #444443;
+  margin-top: 36px;
+}
+
+#ky .ky-main .main-left .main1 .top a {
+  width: 86px;
+  height: 36px;
+  background: #e67e22;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+  align-self: flex-start;
+  margin-top: 35px;
+}
+
+#ky .ky-main .main-left .main1 .top .p2 {
+  width: 720px;
+  height: 0px;
+  border: 1px solid #ebebeb;
+  align-self: flex-start;
+  margin-top: 30px;
+}
+
+#ky .ky-main .main-left .main1 .top i {
+  align-self: flex-start;
+  margin-top: 25px;
+  margin-bottom: 44px;
+}
+
+#ky .ky-main .main-left .main1 .bottom {
+  width: 90%;
+  background-color: #fff;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+#ky .ky-main .main-left .main1 .bottom h2 {
+  font-size: 33px;
+  line-height: 33px;
+  color: #303030;
+  margin-top: 36px;
+  text-align: center;
+}
+
+#ky .ky-main .main-left .main1 .bottom h5 {
+  font-size: 13px;
+  line-height: 13px;
+  color: #959595;
+  margin-top: 22px;
+}
+
+#ky .ky-main .main-left .main1 .bottom h5 span {
+  color: #e67e22;
+}
+
+#ky .ky-main .main-left .main1 .bottom .i1 img {
+  width: 680px;
+  height: 304px;
+  margin-top: 36px;
+}
+
+#ky .ky-main .main-left .main1 .bottom .p1 {
+  font-size: 17px;
+  line-height: 30px;
+  color: #444443;
+  margin-top: 36px;
+}
+
+#ky .ky-main .main-left .main1 .bottom a {
+  width: 86px;
+  height: 36px;
+  background: #e67e22;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+  align-self: flex-start;
+  margin-top: 35px;
+}
+
+#ky .ky-main .main-left .main1 .bottom .p2 {
+  width: 720px;
+  height: 0px;
+  border: 1px solid #ebebeb;
+  align-self: flex-start;
+  margin-top: 30px;
+}
+
+#ky .ky-main .main-left .main1 .bottom .i2 {
+  align-self: flex-start;
+  margin-top: 25px;
+  margin-bottom: 44px;
+}
+
+#ky .ky-main .main-right {
+  width: 40%;
+  background: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ky .ky-main .main-right .top {
+  width: 90%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+#ky .ky-main .main-right .top .a1 {
+  font-size: 20px;
+  color: #303030;
+  margin-top: 23px;
+  width: 60px;
+}
+
+#ky .ky-main .main-right .top .a1 .sp1 {
+  border-bottom: 2px solid #e67e22;
+}
+
+#ky .ky-main .main-right .top .p1 {
+  width: 320px;
+  height: 0px;
+  border: 1px solid #ebebeb;
+  margin-left: 40px;
+}
+
+#ky .ky-main .main-right .top .p2 {
+  font-size: 10px;
+  color: #50506b;
+  line-height: 10px;
+  margin-top: 27px;
+  margin-bottom: 13px;
+}
+
+#ky .ky-main .main-right .top .list1 li .a2, #ky .ky-main .main-right .top .list1 li .a3 {
+  font-size: 12px;
+  color: #e67e22;
+  line-height: 36px;
+}
+
+#ky .ky-main .main-right .top .list1 :nth-child(2) {
+  margin-bottom: 25px;
+}
+
+#ky .ky-main .main-right .middle {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  margin-bottom: 35px;
+}
+
+#ky .ky-main .main-right .middle .a1 {
+  font-size: 20px;
+  color: #303030;
+  margin-top: 23px;
+  display: block;
+  width: 60px;
+}
+
+#ky .ky-main .main-right .middle .a1 .sp1 {
+  border-bottom: 2px solid #e67e22;
+  width: 50px;
+}
+
+#ky .ky-main .main-right .middle .p1 {
+  width: 320px;
+  height: 0px;
+  border: 1px solid #ebebeb;
+  margin-left: 40px;
+}
+
+#ky .ky-main .main-right .middle .a2 {
+  width: 300px;
+  height: 36px;
+  background: #e67e22;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#ky .ky-main .main-right .middle .a2 .sp2 {
+  font-size: 12px;
+  line-height: 36px;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+
+#ky .ky-main .main-right .bottom {
+  width: 90%;
+  background: #fff;
+}
+
+#ky .ky-main .main-right .bottom .a1 {
+  font-size: 20px;
+  color: #303030;
+  margin-top: 23px;
+  display: block;
+  width: 60px;
+}
+
+#ky .ky-main .main-right .bottom .a1 .sp1 {
+  border-bottom: 2px solid #e67e22;
+  width: 50px;
+}
+
+#ky .ky-main .main-right .bottom .p1 {
+  width: 320px;
+  height: 0px;
+  border: 1px solid #ebebeb;
+  margin-left: 50px;
+}
+
+#ky .ky-main .main-right .bottom .list1 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#ky .ky-main .main-right .bottom .list1 li {
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding: 5px 8px;
+  color: #ccc;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin: 0 10px 7px 0;
+}
+
+#ky .ky-main .main-right .bottom .list1 li a {
+  font-size: 14px;
+  color: #959595;
+}
+
+#ky .ky-main .main-right .bottom .list1 li:hover a {
+  background: #e67e22;
+}
