@@ -14,7 +14,7 @@
 <a href='https://cc-hubdj.github.io/day14/code/html/ALLPYRA.html'>ALLPYRA</a>
 
 # day14练习
-<a href='https://cc-hubdj.github.io/day14/code/html/zhifubao.html'>zhifubao</a>
+<a href='https://cc-hubdj.github.io/day14/练习/code/html/zhifubao.html'>zhifubao</a>
 
 # day15作业
 <a href='https://cc-hubdj.github.io/day15/作业/code/html/发现(rem布局).html'>发现(rem布局).html</a>
