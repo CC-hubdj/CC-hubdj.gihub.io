@@ -5,7 +5,7 @@
 <a href='https://cc-hubdj.github.io/day09/%E4%BD%9C%E4%B8%9A/code/html/%E5%B0%8F%E9%B9%BF.html'>小鹿</a>
 
 # day13作业
-<a href='https://cc-hubdj.github.io/day13/code/婚礼纪（作业1）.html'>婚礼纪（作业1）</a>
+<a href='https://cc-hubdj.github.io/day13/作业/code/婚礼纪（作业1）.html'>婚礼纪（作业1）</a>
 
 # day14作业
 <a href='https://cc-hubdj.github.io/day14/code/html/开源博客.html'>开源博客</a>
