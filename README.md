@@ -9,11 +9,7 @@
 
 # day14作业
 <a href='https://cc-hubdj.github.io/day14/code/html/开源博客.html'>开源博客</a>
-
-# day14作业
 <a href='https://cc-hubdj.github.io/day14/code/html/ALLPYRA.html'>ALLPYRA</a>
-
-# day14练习
 <a href='https://cc-hubdj.github.io/day14/练习/code/html/zhifubao.html'>zhifubao</a>
 
 # day15作业
