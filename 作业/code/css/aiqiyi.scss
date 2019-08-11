@@ -1,0 +1,1516 @@
+html,
+body {
+    height: 100%;
+}
+
+#aiqiyi {
+    height: 100%;
+    background: #fff;
+
+    .aqy-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #271022;
+        height: 1.173333rem;
+
+        i {
+            width: 1.973333rem;
+            height: 100%;
+            margin-top: .266667rem;
+            margin-left: .346667rem;
+
+            .img1 {
+                display: block;
+                height: .64rem;
+                line-height: .64rem;
+                margin-top: .133333rem;
+            }
+        }
+
+        .list {
+            display: flex;
+
+            li {
+                margin-right: .426667rem;
+
+                img {
+                    display: block;
+                    height: .533333rem;
+
+                }
+
+            }
+
+            li:nth-child(3) {
+                font-size: .32rem;
+                color: #b0b0b0;
+            }
+
+            li:nth-child(4) {
+                width: 1.866667rem;
+                height: .533333rem;
+                font-size: .24rem;
+                color: #083f15;
+                line-height: .533333rem;
+                background: #43d254;
+                border-radius: .266667rem;
+                text-align: center;
+            }
+
+
+        }
+    }
+
+    .aqy-nav {
+        background: #fff;
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            li {
+                font-size: .466667rem;
+                color: #343434;
+                margin-left: .266667rem;
+                position: relative;
+
+                &:hover {
+                    color: #0cbf04;
+                }
+
+                &:hover::after {
+                    content: "";
+                    display: block;
+                    height: .08rem;
+                    width: .32rem;
+                    background: #20bb22;
+                    position: absolute;
+                    left: 40%;
+                    margin-top: .266667rem;
+                    opacity: 1;
+                }
+            }
+
+            i {
+                display: block;
+                width: 1.2rem;
+                height: 1.2rem;
+                background: url(../imges/爱奇艺/images/menu-more-icon.png) no-repeat;
+                background-size: 2.6rem auto;
+                border-left: .006667rem solid #dbdbdb;
+
+                &:hover {
+                    background-position: -120px 0rem;
+                }
+
+
+
+            }
+        }
+
+    }
+
+    .sousuo {
+        background: #f7f7f7;
+        height: 1.12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .ss {
+            position: relative;
+
+            input {
+                width: 9.36rem;
+                height: .8rem;
+                background: #fff;
+                border-radius: .4rem;
+                border: .026667rem solid #5c935a;
+                display: flex;
+                align-items: center;
+
+            }
+
+            input .placeholder {
+                font-size: .333333rem;
+                color: #626262;
+                line-height: .333333rem;
+                margin-left: 3.28rem;
+                text-align: center
+            }
+
+            p {
+                width: 1.44rem;
+                height: 100%;
+                border-radius: 0rem .4rem .4rem 0rem;
+                background: #28c82a;
+                position: absolute;
+                top: 0rem;
+                right: 0rem;
+            }
+
+            i {
+                height: .373333rem;
+                color: #fff;
+                position: absolute;
+                top: .2rem;
+                right: .586667rem;
+            }
+        }
+    }
+
+    .aqy-banner {
+        height: 5.066667rem;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+
+        i {
+            margin-right: .133333rem;
+
+            img {
+                width: 9.2rem;
+                height: 4.6rem;
+                animation: move 3s step-end 1s infinite reverse forwards;
+            }
+        }
+    }
+
+    .aqy-main1 {
+        display: flex;
+
+        .list {
+            display: flex;
+            align-items: center;
+            overflow: auto;
+            background: #fff;
+            .li1{
+                margin-left: .4rem;
+            }
+
+            li {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                margin-right: .8rem;
+                margin-top: .4rem;
+                margin-bottom: .4rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    img {
+                        width: 1.173333rem;
+                        height: 1.173333rem;
+                    }
+                }
+
+                p {
+                    font-size: .293333rem;
+                    font-weight: 600;
+                    line-height: .293333rem;
+                    margin-top: .213333rem;
+                    width: 1.6rem;
+                    color: #646464;
+                    text-align: center;
+                }
+            }
+
+
+
+
+        }
+    }
+
+    .aqy-main2 {
+        background: #fff;
+        border-bottom: .013333rem solid #f7f7f7;
+
+        .list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+
+                i {
+                    img {
+                        width: 4.96rem;
+                        height: 4.32rem;
+                    }
+                }
+
+                .content {
+                    margin: .266667rem 0rem .346667rem .32rem;
+
+                    h2 {
+                        font-size: .346667rem;
+                        line-height: .346667rem;
+                        color: #343434;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: .293333rem;
+                        line-height: .293333rem;
+                        color: #9b9b9b;
+                        margin-top: .226667rem;
+                    }
+                }
+
+                span {
+                    display: block;
+                    width: 1.733333rem;
+                    height: .8rem;
+                    background: url(../imges/爱奇艺/images/picicon-bg-20190322.png);
+                    background-size: 6.8rem auto;
+                    background-position: -3rem 0rem;
+                    position: absolute;
+                    top: 0rem;
+                    right: .053333rem;
+                }
+
+                &:nth-child(2) {
+                    span {
+                        background-position: -1.4rem 0rem;
+                    }
+                }
+
+                &:nth-child(4) {
+                    span {
+                        background-position: 0.22rem 0rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .aqy-main3 {
+        border-bottom: .013333rem solid #f7f7f7;
+
+        .top {
+            .content {
+                margin: .4rem 0rem .506667rem .32rem;
+
+                .list {
+                    li {
+                        &:nth-child(1) {
+                            display: flex;
+                            margin-bottom: .466667rem;
+
+                            i {
+                                display: block;
+                                width: .96rem;
+                                height: .96rem;
+                                background: url(../imges/爱奇艺/images/channel-icon-20180918.png);
+                                background-size: 5.76rem auto;
+                                background-position: 0rem 0rem;
+                            }
+
+                            span {
+                                font-size: .373333rem;
+                                line-height: .96rem;
+                                font-weight: 620;
+                                color: #313131;
+                                margin-left: .2rem;
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            display: flex;
+
+                            i {
+                                font-size: .426667rem;
+                                color: #abdcfc;
+                            }
+
+                            margin-left: .133333rem;
+                            font-size: .346667rem;
+                            line-height: .346667rem;
+                            font-weight: 600;
+                            color: #353535;
+                            margin-bottom: .4rem;
+
+                        }
+
+                        &:nth-child(3) {
+                            display: flex;
+
+                            i {
+                                font-size: .426667rem;
+                                color: #abdcfc;
+                            }
+
+                            margin-left: .133333rem;
+                            font-size: .346667rem;
+                            line-height: .346667rem;
+                            font-weight: 600;
+                            color: #353535;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .middle {
+            .list {
+                display: flex;
+                justify-content: space-between;
+
+                li {
+                    position: relative;
+
+                    i {
+                        img {
+                            width: 4.96rem;
+                            height: 2.8rem;
+                        }
+                    }
+
+                    p {
+                        font-size: .346667rem;
+                        line-height: .346667rem;
+                        margin-top: .266667rem;
+                        color: #373737;
+                        font-weight: 600;
+                        margin-left: .333333rem;
+                    }
+
+                    .shijian {
+                        position: absolute;
+                        bottom: .8rem;
+
+                        .cont {
+                            width: 4.346667rem;
+                            //    background:yellowgreen;
+                            margin-left: .32rem;
+                            display: flex;
+                            justify-content: space-between;
+
+                            span {
+                                font-size: .24rem;
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .bottom {
+
+            .content {
+                width: 7.04rem;
+                // background: #0cbf04;
+                margin: auto;
+                margin-top: 1.173333rem;
+                margin-bottom: .6rem;
+
+                .list {
+                    display: flex;
+                    justify-content: space-between;
+
+                    li {
+                        width: 2.16rem;
+                        height: .506667rem;
+                        background: #f9ffff;
+                        font-size: .333333rem;
+                        color: #1baf1b;
+
+                        i {
+                            font-size: .373333rem;
+                            color: #0cbf04;
+                            margin-right: .186667rem;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    .aqy-main4 {
+        border-bottom: .013333rem solid #f7f7f7;
+
+        .title {
+            height: 1.306667rem;
+            margin-left: .346667rem;
+            line-height: 1.306667rem;
+            display: flex;
+            margin-top: .266667rem;
+
+
+            i {
+                display: block;
+                width: .96rem;
+                height: .96rem;
+                background: url(../imges/爱奇艺/images/channel-icon-20180918.png);
+                background-size: 5.76rem auto;
+                background-position: -0.96rem 0rem;
+            }
+
+            span {
+                font-size: .4rem;
+                line-height: .96rem;
+                color: #313131;
+                font-weight: 600;
+                margin-left: .2rem;
+            }
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+
+                i {
+                    img {
+                        width: 3.293333rem;
+                        height: 4.373333rem;
+                    }
+                }
+
+                h3 {
+                    font-size: .346667rem;
+                    color: #303030;
+                    font-weight: 600;
+                    line-height: .346667rem;
+                    text-align: center;
+                    margin-top: .266667rem;
+                    margin-bottom: .373333rem;
+                }
+
+                span {
+                    display: block;
+                    width: 1.733333rem;
+                    height: .8rem;
+                    background: url(../imges/爱奇艺/images/picicon-bg-20190322.png);
+                    background-size: 6.8rem auto;
+                    background-position: -3rem 0rem;
+                    position: absolute;
+                    top: 0rem;
+                    right: .053333rem;
+                }
+
+                &:nth-child(6) {
+                    span {
+                        background-position: 0.22rem 0rem;
+                    }
+                }
+
+            }
+        }
+
+        .bottom {
+
+            .content {
+                width: 7.04rem;
+                // background: #0cbf04;
+                margin: auto;
+                margin-top: .746667rem;
+                margin-bottom: .6rem;
+
+                .list {
+                    display: flex;
+                    justify-content: space-between;
+
+                    li {
+                        width: 2.666667rem;
+                        height: .506667rem;
+                        background: #f9ffff;
+                        font-size: .333333rem;
+                        color: #1baf1b;
+
+                        i {
+                            font-size: .373333rem;
+                            color: #0cbf04;
+                            margin-right: .186667rem;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    .aqy-main5 {
+        border-bottom: .013333rem solid #f7f7f7;
+
+        .title {
+            height: 1.306667rem;
+            margin-left: .346667rem;
+            line-height: 1.306667rem;
+            display: flex;
+            margin-top: .266667rem;
+
+
+            i {
+                display: block;
+                width: .96rem;
+                height: .96rem;
+                background: url(../imges/爱奇艺/images/channel-icon-20180918.png);
+                background-size: 5.76rem auto;
+                background-position: -1.92rem 0rem;
+            }
+
+            span {
+                font-size: .4rem;
+                line-height: .96rem;
+                color: #313131;
+                font-weight: 600;
+                margin-left: .2rem;
+            }
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+
+                i {
+                    img {
+                        width: 3.293333rem;
+                        height: 4.373333rem;
+                    }
+                }
+
+                h3 {
+                    font-size: .346667rem;
+                    color: #303030;
+                    font-weight: 600;
+                    line-height: .346667rem;
+                    text-align: center;
+                    margin-top: .266667rem;
+                    margin-bottom: .373333rem;
+                }
+
+                span {
+                    display: block;
+                    width: 1.733333rem;
+                    height: .8rem;
+                    background: url(../imges/爱奇艺/images/picicon-bg-20190322.png);
+                    background-size: 6.8rem auto;
+                    background-position: -3rem 0rem;
+                    position: absolute;
+                    top: 0rem;
+                    right: .053333rem;
+                }
+
+                &:nth-child(1) {
+                    span {
+                        background-position: -1.4rem 0rem;
+                    }
+                }
+
+                &:nth-child(2) {
+                    span {
+                        background-position: 0.22rem 0rem;
+                    }
+                }
+
+                &:nth-child(3) {
+                    span {
+                        background-position: -3rem -0.8rem;
+                    }
+                }
+
+                &:nth-child(4) {
+                    span {
+                        background-position: 0.22rem 0rem;
+                    }
+                }
+
+                &:nth-child(5) {
+                    span {
+                        background-position: 0.22rem 0rem;
+                    }
+                }
+
+            }
+        }
+
+        .bottom {
+
+            .content {
+                width: 7.04rem;
+                // background: #0cbf04;
+                margin: auto;
+                margin-top: .746667rem;
+                margin-bottom: .6rem;
+
+                .list {
+                    display: flex;
+                    justify-content: space-between;
+
+                    li {
+                        width: 2.666667rem;
+                        height: .506667rem;
+                        background: #f9ffff;
+                        font-size: .333333rem;
+                        color: #1baf1b;
+
+                        i {
+                            font-size: .373333rem;
+                            color: #0cbf04;
+                            margin-right: .186667rem;
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+    }
+
+    .aqy-main6 {
+        border-bottom: .013333rem solid #f7f7f7;
+
+        .title {
+            height: 1.306667rem;
+            margin-left: .346667rem;
+            line-height: 1.306667rem;
+            display: flex;
+            margin-top: .266667rem;
+
+
+            i {
+                display: block;
+                width: .96rem;
+                height: .96rem;
+                background: url(../imges/爱奇艺/images/channel-icon-20180918.png);
+                background-size: 5.76rem auto;
+                background-position: -2.88rem 0rem;
+            }
+
+            span {
+                font-size: .4rem;
+                line-height: .96rem;
+                color: #313131;
+                font-weight: 600;
+                margin-left: .2rem;
+            }
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+
+                i {
+                    img {
+                        width: 3.293333rem;
+                        height: 4.373333rem;
+                    }
+                }
+
+                h3 {
+                    font-size: .346667rem;
+                    color: #303030;
+                    font-weight: 600;
+                    line-height: .346667rem;
+                    text-align: center;
+                    margin-top: .266667rem;
+                    margin-bottom: .373333rem;
+                }
+
+                span {
+                    display: block;
+                    width: 1.733333rem;
+                    height: .8rem;
+                    background: url(../imges/爱奇艺/images/picicon-bg-20190322.png);
+                    background-size: 6.8rem auto;
+                    background-position: -1.4rem 0rem;
+                    position: absolute;
+                    top: 0rem;
+                    right: .053333rem;
+                }
+
+                &:nth-child(1) {
+                    span {
+                        background-position: 0.22rem 0rem;
+                    }
+                }
+
+                &:nth-child(4) {
+                    span {
+                        background-position: -3rem 0rem;
+                    }
+                }
+
+                &:nth-child(6) {
+                    span {
+                        background-position: 0.22rem 0rem;
+                    }
+                }
+
+            }
+        }
+
+        .bottom {
+
+            .content {
+                width: 7.04rem;
+                // background: #0cbf04;
+                margin: auto;
+                margin-top: .746667rem;
+                margin-bottom: .6rem;
+
+                .list {
+                    display: flex;
+                    justify-content: center;
+
+                    li {
+                        width: 2.346667rem;
+                        height: .506667rem;
+                        background: #f9ffff;
+                        font-size: .333333rem;
+                        color: #1baf1b;
+
+                        i {
+                            font-size: .373333rem;
+                            color: #0cbf04;
+                            margin-right: .186667rem;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    .aqy-main7 {
+        border-bottom: .013333rem solid #f7f7f7;
+
+        .title {
+            height: 1.306667rem;
+            margin-left: .346667rem;
+            line-height: 1.306667rem;
+            display: flex;
+            margin-top: .266667rem;
+
+
+            i {
+                display: block;
+                width: .96rem;
+                height: .96rem;
+                background: url(../imges/爱奇艺/images/channel-icon-20180918.png);
+                background-size: 5.76rem auto;
+                background-position: -1.92rem -2.88rem;
+            }
+
+            span {
+                font-size: .4rem;
+                line-height: .96rem;
+                color: #313131;
+                font-weight: 600;
+                margin-left: .2rem;
+            }
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+
+                i {
+                    img {
+                        width: 4.96rem;
+                        height: 2.8rem;
+                    }
+                }
+
+                h3 {
+                    font-size: .346667rem;
+                    color: #303030;
+                    font-weight: 600;
+                    line-height: .346667rem;
+                    margin-left: .333333rem;
+                    margin-top: .266667rem;
+                }
+
+                .shijian {
+                    position: absolute;
+                    bottom: .8rem;
+
+                    .cont {
+                        width: 4.346667rem;
+                        //    background:yellowgreen;
+                        margin-left: .32rem;
+                        display: flex;
+                        justify-content: flex-end;
+
+                        .sp {
+                            font-size: .24rem;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .sp3 {
+                    display: block;
+                    width: 1.733333rem;
+                    height: .8rem;
+                    line-height: .8rem;
+                    background: url(../imges/爱奇艺/images/picicon-bg-20190322.png);
+                    background-size: 6.8rem auto;
+                    background-position: 0.22rem 0rem;
+                    position: absolute;
+                    top: 0rem;
+                    right: .053333rem;
+                }
+
+                &:nth-child(2) {
+                    span {
+                        background-position: -3rem 0rem;
+                    }
+                }
+
+            }
+        }
+
+        .bottom {
+
+            .content {
+                width: 7.04rem;
+                // background: #0cbf04;
+                margin: auto;
+                margin-top: .746667rem;
+                margin-bottom: .6rem;
+
+                .list {
+                    display: flex;
+                    justify-content: center;
+
+                    li {
+                        width: 2.346667rem;
+                        height: .506667rem;
+                        background: #f9ffff;
+
+                        a {
+                            font-size: .333333rem;
+                            color: #1baf1b;
+                        }
+
+                        i {
+                            font-size: .373333rem;
+                            color: #0cbf04;
+                            margin-right: .186667rem;
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+
+
+    }
+
+    .aqy-main8 {
+        border-bottom: .013333rem solid #f7f7f7;
+
+        .title {
+            height: 1.306667rem;
+            margin-left: .346667rem;
+            line-height: 1.306667rem;
+            display: flex;
+            margin-top: .266667rem;
+
+
+            i {
+                display: block;
+                width: .96rem;
+                height: .96rem;
+                background: url(../imges/爱奇艺/images/channel-icon-20180918.png);
+                background-size: 5.76rem auto;
+                background-position: -2.88rem -2.88rem;
+            }
+
+            span {
+                font-size: .4rem;
+                line-height: .96rem;
+                color: #313131;
+                font-weight: 600;
+                margin-left: .2rem;
+            }
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+
+                i {
+                    img {
+                        width: 4.96rem;
+                        height: 2.8rem;
+                    }
+                }
+
+                h3 {
+                    font-size: .346667rem;
+                    color: #303030;
+                    font-weight: 600;
+                    line-height: .346667rem;
+                    margin-left: .333333rem;
+                    margin-top: .266667rem;
+                }
+
+                .shijian {
+                    position: absolute;
+                    bottom: .8rem;
+
+                    .cont {
+                        width: 4.346667rem;
+                        //    background:yellowgreen;
+                        margin-left: .32rem;
+                        display: flex;
+                        justify-content: flex-end;
+
+                        .sp {
+                            font-size: .24rem;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .sp3 {
+                    display: block;
+                    width: 1.733333rem;
+                    height: .8rem;
+                    line-height: .8rem;
+                    background: url(../imges/爱奇艺/images/picicon-bg-20190322.png);
+                    background-size: 6.8rem auto;
+                    background-position: 0.22rem 0rem;
+                    position: absolute;
+                    top: 0rem;
+                    right: .053333rem;
+                }
+
+            }
+        }
+
+        .bottom {
+
+            .content {
+                width: 7.04rem;
+                // background: #0cbf04;
+                margin: auto;
+                margin-top: .746667rem;
+                margin-bottom: .6rem;
+
+                .list {
+                    display: flex;
+                    justify-content: center;
+
+                    li {
+                        width: 2.346667rem;
+                        height: .506667rem;
+                        background: #f9ffff;
+
+                        a {
+                            font-size: .333333rem;
+                            color: #1baf1b;
+                        }
+
+                        i {
+                            font-size: .373333rem;
+                            color: #0cbf04;
+                            margin-right: .186667rem;
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+    }
+
+    .aqy-main9 {
+        border-bottom: .013333rem solid #f7f7f7;
+
+        .title {
+            height: 1.306667rem;
+            margin-left: .346667rem;
+            line-height: 1.306667rem;
+            display: flex;
+            margin-top: .266667rem;
+
+
+            i {
+                display: block;
+                width: .96rem;
+                height: .96rem;
+                background: url(../imges/爱奇艺/images/channel-icon-20180918.png);
+                background-size: 5.76rem auto;
+                background-position: -3.84rem -2.88rem;
+            }
+
+            span {
+                font-size: .4rem;
+                line-height: .96rem;
+                color: #313131;
+                font-weight: 600;
+                margin-left: .2rem;
+            }
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+
+                i {
+                    img {
+                        width: 4.96rem;
+                        height: 2.8rem;
+                    }
+                }
+
+                h3 {
+                    font-size: .346667rem;
+                    color: #303030;
+                    font-weight: 600;
+                    line-height: .346667rem;
+                    margin-left: .333333rem;
+                    margin-top: .266667rem;
+                }
+
+                .shijian {
+                    position: absolute;
+                    bottom: .8rem;
+
+                    .cont {
+                        width: 4.346667rem;
+                        //    background:yellowgreen;
+                        margin-left: .32rem;
+                        display: flex;
+                        justify-content: flex-end;
+
+                        .sp {
+                            font-size: .24rem;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bottom {
+
+            .content {
+                width: 7.04rem;
+                // background: #0cbf04;
+                margin: auto;
+                margin-top: .746667rem;
+                margin-bottom: .6rem;
+
+                .list {
+                    display: flex;
+                    justify-content: center;
+
+                    li {
+                        width: 2.346667rem;
+                        height: .506667rem;
+                        background: #f9ffff;
+
+                        a {
+                            font-size: .333333rem;
+                            color: #1baf1b;
+                        }
+
+                        i {
+                            font-size: .373333rem;
+                            color: #0cbf04;
+                            margin-right: .186667rem;
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+    }
+
+    .aqy-main10 {
+        border-bottom: .013333rem solid #f7f7f7;
+
+        .title {
+            height: 1.306667rem;
+            margin-left: .346667rem;
+            line-height: 1.306667rem;
+            display: flex;
+            margin-top: .266667rem;
+
+
+            i {
+                display: block;
+                width: .96rem;
+                height: .96rem;
+                background: url(../imges/爱奇艺/images/channel-icon-20180918.png);
+                background-size: 5.76rem auto;
+                background-position:-4.8rem -2.88rem;
+            }
+
+            span {
+                font-size: .4rem;
+                line-height: .96rem;
+                color: #313131;
+                font-weight: 600;
+                margin-left: .2rem;
+            }
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+
+                i {
+                    img {
+                        width: 4.96rem;
+                        height: 2.8rem;
+                    }
+                }
+
+                h3 {
+                    font-size: .346667rem;
+                    color: #303030;
+                    font-weight: 600;
+                    line-height: .346667rem;
+                    margin-left: .333333rem;
+                    margin-top: .266667rem;
+                }
+
+                .shijian {
+                    position: absolute;
+                    bottom: .8rem;
+
+                    .cont {
+                        width: 4.346667rem;
+                        //    background:yellowgreen;
+                        margin-left: .32rem;
+                        display: flex;
+                        justify-content: flex-end;
+
+                        .sp {
+                            font-size: .24rem;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .sp3 {
+                    display: block;
+                    width: 1.733333rem;
+                    height: .8rem;
+                    line-height: .8rem;
+                    background: url(../imges/爱奇艺/images/picicon-bg-20190322.png);
+                    background-size: 6.8rem auto;
+                    background-position:-3rem 0rem;
+                    position: absolute;
+                    top: 0rem;
+                    right: .053333rem;
+                }
+
+                &:nth-child(2) {
+                    span {
+                        background-position: -3rem 0rem;
+                    }
+                }
+
+            }
+        }
+
+        .bottom {
+
+            .content {
+                width: 7.04rem;
+                // background: #0cbf04;
+                margin: auto;
+                margin-top: .746667rem;
+                margin-bottom: .6rem;
+
+                .list {
+                    display: flex;
+                    justify-content: center;
+
+                    li {
+                        width: 2.346667rem;
+                        height: .506667rem;
+                        background: #f9ffff;
+
+                        a {
+                            font-size: .333333rem;
+                            color: #1baf1b;
+                        }
+
+                        i {
+                            font-size: .373333rem;
+                            color: #0cbf04;
+                            margin-right: .186667rem;
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+
+
+    }
+
+    .aqy-main11 {
+        border-bottom: .013333rem solid #f7f7f7;
+
+        .title {
+            height: 1.306667rem;
+            margin-left: .346667rem;
+            line-height: 1.306667rem;
+            display: flex;
+            margin-top: .266667rem;
+
+
+            i {
+                display: block;
+                width: .96rem;
+                height: .96rem;
+                background: url(../imges/爱奇艺/images/channel-icon-20180918.png);
+                background-size: 5.76rem auto;
+                background-position:  0rem -3.84rem;
+            }
+
+            span {
+                font-size: .4rem;
+                line-height: .96rem;
+                color: #313131;
+                font-weight: 600;
+                margin-left: .2rem;
+            }
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+
+                i {
+                    img {
+                        width: 4.96rem;
+                        height: 2.8rem;
+                    }
+                }
+
+                h3 {
+                    font-size: .346667rem;
+                    color: #303030;
+                    font-weight: 600;
+                    line-height: .346667rem;
+                    margin-left: .333333rem;
+                    margin-top: .266667rem;
+                }
+
+                .shijian {
+                    position: absolute;
+                    bottom: .8rem;
+
+                    .cont {
+                        width: 4.346667rem;
+                        //    background:yellowgreen;
+                        margin-left: .32rem;
+                        display: flex;
+                        justify-content: flex-end;
+
+                        .sp {
+                            font-size: .24rem;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .sp3 {
+                    display: block;
+                    width: 1.733333rem;
+                    height: .8rem;
+                    line-height: .8rem;
+                    background: url(../imges/爱奇艺/images/picicon-bg-20190322.png);
+                    background-size: 6.8rem auto;
+                    background-position: -3rem 0rem;
+                    position: absolute;
+                    top: 0rem;
+                    right: .053333rem;
+                }
+
+                &:nth-child(2) {
+                    span {
+                        background-position: -3rem 0rem;
+                    }
+                }
+
+            }
+        }
+
+        .bottom {
+
+            .content {
+                width: 7.04rem;
+                // background: #0cbf04;
+                margin: auto;
+                margin-top: .746667rem;
+                margin-bottom: .6rem;
+
+                .list {
+                    display: flex;
+                    justify-content: center;
+
+                    li {
+                        width: 2.346667rem;
+                        height: .506667rem;
+                        background: #f9ffff;
+
+                        a {
+                            font-size: .333333rem;
+                            color: #1baf1b;
+                        }
+
+                        i {
+                            font-size: .373333rem;
+                            color: #0cbf04;
+                            margin-right: .186667rem;
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+
+
+    }
+
+    .aqy-main {
+        .title {
+            height: 1.306667rem;
+            margin-left: .346667rem;
+            line-height: 1.306667rem;
+            display: flex;
+            margin-top: .266667rem;
+
+
+            i {
+                display: block;
+                width: .96rem;
+                height: .96rem;
+                background: url(../imges/爱奇艺/images/channel-icon-20180918.png);
+                background-size: 5.76rem auto;
+                background-position: -0.96rem -3.84rem;
+            }
+
+            span {
+                font-size: .4rem;
+                line-height: .96rem;
+                color: #313131;
+                font-weight: 600;
+                margin-left: .2rem;
+            }
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                i {
+                    img {
+                        width: 2.133333rem;
+                        height: 2.133333rem;
+                    }
+                }
+
+                h3 {
+                    font-size: .346667rem;
+                    color: #303030;
+                    font-weight: 600;
+                    line-height: .346667rem;
+                    text-align: center;
+                    margin-top: .266667rem;
+                }
+            }
+        }
+
+
+    }
+
+    .aqy-footer {
+        margin-top: .8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        i {
+            display: block;
+            width: 2.693333rem;
+            height: 1.266667rem;
+            background: url(../imges/爱奇艺/images/iqiyi-logo.png) center center;
+            background-size: 100% 100%;
+            opacity: .2;
+        }
+
+        .bottom {
+            width: 2.666667rem;
+            display: flex;
+            justify-content: space-around;
+            margin-top: .16rem;
+            margin-bottom: .933333rem;
+
+            span {
+                font-size: .213333rem;
+                color: #dbdbdb;
+                line-height: .213333rem;
+            }
+        }
+    }
+}
