@@ -20,6 +20,10 @@
 <a href='https://cc-hubdj.github.io/day15/作业/code/html/饿了么（vw布局）.html'>饿了么（vw布局）.html</a>
 
 # day17作业
+<a href='https://cc-hubdj.github.io/day17/练习/code/html/立方体.html'>立方体.html</a>
+<a href='https://cc-hubdj.github.io/day17/练习/code/html/球体.html'>球体.html</a> 
+
+# day17作业
 <a href='https://cc-hubdj.github.io/作业/code/html/爱奇艺.html'>爱奇艺.html</a>
 
 # 一阶段机试（8.9）
