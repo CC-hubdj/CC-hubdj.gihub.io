@@ -1,0 +1,57 @@
+html,body{
+    background: #000;
+
+}
+.box{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border:1px solid orange;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg) ;
+    animation: move 3s infinite linear;
+    
+}
+.box li{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid orange;
+    top: 0px;
+    left: 0px;
+} 
+ul li:nth-child(1){
+    transform: rotateY(260deg);
+}
+ul li:nth-child(2){
+    transform: rotateY(220deg);
+}
+ul li:nth-child(3){
+    transform: rotateY(180deg);
+}
+ul li:nth-child(4){
+    transform: rotateY(140deg);
+}
+ul li:nth-child(5){
+    transform: rotateY(100deg);
+}
+ul li:nth-child(6){
+    transform: rotateY(60deg);
+}
+@keyframes move{
+    to{
+        transform: rotateY(0deg);
+
+    }
+
+    from{
+        transform: rotateY(360deg);
+    }
+}
